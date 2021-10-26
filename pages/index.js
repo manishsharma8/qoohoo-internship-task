@@ -1,10 +1,11 @@
-import Head from 'next/head';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/section/Navbar';
+import Product from '../components/section/Product';
 
 export default function Index() {
 	return (
-		<div>
+		<>
 			<Navbar />
-		</div>
+			<Product />
+		</>
 	);
 }
