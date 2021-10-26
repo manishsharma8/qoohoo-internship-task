@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* can now reference my font */
+body {
+	font-family: 'Oswald';
+	background-color: #f8f5f1;
+}
