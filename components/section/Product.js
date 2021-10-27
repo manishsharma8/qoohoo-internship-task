@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import Cards from '../Cards';
 
 const Product = () => {
 	const [selectedSize, setSelectedSize] = useState('S');
@@ -45,6 +46,8 @@ const Product = () => {
 						</Link>
 					</ul>
 				</div>
+				{/* Product Cards  */}
+				<Cards />
 			</div>
 		</div>
 	);
