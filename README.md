@@ -9,5 +9,5 @@
 </p>
 
 
-![demo](https://raw.githubusercontent.com/manishsharma8/qoohoo-internship-task/public/images/demo.png)
+![demo](/public/images/demo.png)
 
