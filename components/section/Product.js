@@ -12,7 +12,7 @@ const Product = () => {
 	};
 
 	return (
-		<div className="product-details opacity-0 hidden mb-5">
+		<div className="product-details opacity-0 hidden mb-5 relative">
 			<div className="my-7 text-5xl">{productDetails.price}</div>
 			<div className="ubuntu text-xl leading-relaxed">
 				{productDetails.desc}
@@ -42,6 +42,9 @@ const Product = () => {
 				</ul>
 			</div>
 			<Cards />
+			<div className="absolute cursor-pointer flex z-20 justify-center w-32 h-32 rounded-full bg-red-500 top-10 -right-36">
+				<div className="my-auto text-2xl text-white">Add</div>
+			</div>
 		</div>
 	);
 };

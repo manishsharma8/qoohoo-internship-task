@@ -9,7 +9,7 @@ const Cards = () => {
 					<Image
 						src={`/images/${card}`}
 						quality="100"
-						className="transform transition origin-top duration-500 motion-safe:hover:scale-150"
+						className="transform transition origin-top duration-500 motion-safe:hover:scale-150 cursor-pointer"
 						alt="Picture of the author"
 						width={130}
 						height={200}
