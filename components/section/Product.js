@@ -13,7 +13,7 @@ const Product = () => {
 	};
 
 	return (
-		<div className="grid grid-cols-3 mb-20">
+		<div className="grid grid-cols-3 mb-20 opacity-0">
 			<div className="col-start-1 col-end-3 ml-16 mt-24">
 				<div className="text-7xl font-bold w-1/2 leading-snug">
 					TIED GREEN V&#8209;NECK SHIRT
