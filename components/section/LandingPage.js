@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import Box from '../Box';
 import Socials from '../Socials';
 import Product from './Product';
 
@@ -25,11 +26,14 @@ const LandingPage = ({ onClickHandler }) => {
 				style={{ backgroundColor: '#eff4dd' }}
 				className="circle2 w-1/3 h-3/5 scale-110 top-36 left-1/4 translate-x-4 absolute rounded-full"
 			></div>
-			<div className="col-start-2 col-end-4 relative">
+			<div className="col-start-2 col-end-4 relative flex">
 				<img
 					src={`/images/og-model.png`}
 					className="p-image col-start-2 col-end-4 w-4/5 ml-auto"
 				/>
+				<div className="absolute -right-40 top-40">
+					<Box />
+				</div>
 				<button
 					onClick={onClickHandler}
 					className="add absolute top-1/2 left-1/2 bg-gray-800 hover:bg-gray-700 rounded-full p-3"
@@ -50,6 +54,9 @@ const LandingPage = ({ onClickHandler }) => {
 					</svg>
 				</button>
 			</div>
+			{/* <div className="absolute top-3/4 right-3/4 w-12 h-12">
+				<img className="spin" src="assets/squiggly-line.png" />
+			</div> */}
 		</div>
 	);
 };
