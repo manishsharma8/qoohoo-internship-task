@@ -24,7 +24,7 @@ const Product = () => {
 						return (
 							<li
 								onClick={() => setSelectedSize(size)}
-								className={`w-14 h-14 cursor-pointer rounded-full flex justify-center border-2 font-bold ${
+								className={`w-14 h-14 cursor-pointer rounded-full flex justify-center border-2 border-solid font-bold ${
 									selectedSize === size
 										? 'border-black text-black'
 										: 'text-gray-400'

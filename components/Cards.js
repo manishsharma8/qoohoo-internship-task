@@ -19,7 +19,7 @@ const Cards = () => {
 			<button>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					className="h-10 w-10 ml-3 rounded-full p-1 border hover:border-gray-500"
+					className="h-10 w-10 ml-3 rounded-full p-1 border border-solid hover:border-gray-500"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"

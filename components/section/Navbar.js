@@ -12,8 +12,8 @@ const Navbar = () => {
 	];
 
 	return (
-		<div className="grid grid-cols-2 border-b border-gray-300 divide-x divide-gray-300">
-			<div className="flex divide-x divide-gray-300">
+		<div className="grid grid-cols-2 border-b border-solid border-gray-300 divide-x divide-solid divide-gray-300">
+			<div className="flex divide-x divide-solid divide-gray-300">
 				<Link href="/" passHref>
 					<div className="hamburger p-8 mt-1 cursor-pointer">
 						<div className="w-7 h-0.5 bg-gray-700"></div>
@@ -44,7 +44,7 @@ const Navbar = () => {
 							<Link href={link.href} passHref>
 								<li
 									onClick={() => setActive(link.name)}
-									className={`py-7 mt-auto font-bold cursor-pointer text-gray-800 border-b-2 hover:border-red-500 transition ease-in duration-200 ${
+									className={`py-7 mt-auto font-bold cursor-pointer text-gray-800 border-b-2 border-solid hover:border-red-500 transition ease-in duration-200 ${
 										active === link.name
 											? 'border-red-500'
 											: 'border-transparent'
